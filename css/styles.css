@@ -233,7 +233,7 @@ div.phone {
 	border-radius: 2px;
 	cursor: pointer;
 }
-.banner_button:hover, .big_red_button:hover:not(.differences > .big_red_button) {
+.banner_button:hover, .big_red_button:not(.differences > .big_red_button):hover {
 	background: #fff;
 	color: #da3b01;
 	border: 2px #da3b01 solid;
