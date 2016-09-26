@@ -233,6 +233,16 @@ div.phone {
 	border-radius: 2px;
 	cursor: pointer;
 }
+.banner_button:hover, .big_red_button:hover:not(.differences > .big_red_button) {
+	background: #fff;
+	color: #da3b01;
+	border: 2px #da3b01 solid;
+}
+.differences .big_red_button:hover {
+	background: #da3b01;
+	color: #fff;
+	border: 2px #fff solid;
+}
 /* end of banner */
 section:not(.banner) {
 	text-align: center;
@@ -251,7 +261,7 @@ section:not(.banner) .wrapper, footer .wrapper {
 .fun .wrapper figure {
 	width: 320px;
 }
-.big_red_button {
+.big_red_button { /* styles for hover on 236 */
 	background: #da3b01;
 	color: #fff;
 	padding: 18px 32px;
