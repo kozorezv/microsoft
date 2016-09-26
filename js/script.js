@@ -1,6 +1,6 @@
 /* openning humbeurger menu */
 $(document).ready(function(){
-	$('#nav-icon1').click(function(){
+	$('#nav-icon').click(function(){
 		$(this).toggleClass('open');
 		$('nav').toggleClass('displaied');
 	});
